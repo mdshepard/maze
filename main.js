@@ -66,7 +66,7 @@ document.addEventListener("keydown", (event) => {
     }
     if (keyName === "ArrowLeft") {
         if (posX < 21 && posX > 0) { 
-            if (map[posY][posX-1]===" " ) {
+            if ((map[posY][posX-1]===" ") || (map[posY][posX-1]==="S")) {
                 posX -= 1;
                 playerLeft -= 20;
                 document.getElementById("player").style.left = playerLeft + "px";
