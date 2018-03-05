@@ -1,0 +1,22 @@
+.map {
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.player {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: cyan;
+    left: 8px;
+    top: 188px;    
+}
